@@ -1,8 +1,8 @@
 # CAMP public preview
 
-Compiled website only. Source code and server remain in the private CAMP repository.
+Compiled website only. Source and Node server remain in the private CAMP repository.
 
 Site: https://salfden.github.io/CAMP-preview/
-Guest P2P rooms: https://salfden.github.io/CAMP-preview/#/p2p
+Enter CAMP: https://salfden.github.io/CAMP-preview/#/camp
 
-Create a room, share its invitation, keep the host tab open. Guest names are not verified accounts. Up to 8 participants, last 200 messages kept in the host memory. Room ends when the host closes or disconnects. PeerJS Cloud signaling and default WebRTC ICE services are external dependencies; connections across all networks are not guaranteed. No audio calls.
+Enter a guest name, explore Home and all navigation screens. Create starts one P2P Camp; share its invitation with a friend. They enter a name, join and see Home too. Inbox and Campfire show the same conversation, Sounds plays campfire ambience, You shows a local guest profile. The host connection stays active across navigation until room closure, logout or browser closure/reload. Up to 8 participants, 200 messages in host memory. PeerJS Cloud and default ICE services are external dependencies; connectivity across all networks is not guaranteed. Global user discovery, separate direct messages and audio calls require the server mode/future work.
