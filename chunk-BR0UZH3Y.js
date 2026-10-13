@@ -1,0 +1,1 @@
+function t(e,r){return e.kind===`room`?e.name:e.members.find(n=>n.id!==r)?.displayName??`Личная переписка`}function i(e){let r=e%10,n=e%100;return`${e} ${n>=11&&n<=14?`участников`:r===1?`участник`:r>=2&&r<=4?`участника`:`участников`}`}export{t as n,i as t};
